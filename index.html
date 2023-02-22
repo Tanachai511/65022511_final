@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box">
+        <h1>Insert data</h1>
+        <label for="Name">Name</label>
+        <input type="text" id="Name" onchange="text_change()"></br>
+        </br>
+        <label for="">Surnname</label>
+        <input type="text" id="Surnname" onchange="text_change()"></br>
+        </br>
+        <label for="">Gender</label>
+        <select name="" id="menu" onchange="selectedMenu()">
+        <option value="Compiticate">Compiticate</option>
+        <option value="Male">Male</option>
+        <option value="Women">Women</option></br>
+        </br>
+        <label for="">Birth date</label>
+        <option value="Birth_date">Birth</option>
+        </select>  
+    </div>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surnname</th>
+                <th>Compiticate</th>
+                <th>Birth date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="selected"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
